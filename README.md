@@ -2,6 +2,7 @@
 
 
 <h2>Description</h2>
+This lab demonstrates how to set up a honeypot Virtual Machine (VM) in Azure and use Azure Sentinel to visualize failed RDP (Remote Desktop Protocol) attempts on a geo-map. We'll capture the IP addresses of the attackers and plot them on a world map.
 
 <br />
 
@@ -20,9 +21,6 @@
 
 
 
-## Overview
-
-This lab demonstrates how to set up a honeypot Virtual Machine (VM) in Azure and use Azure Sentinel to visualize failed RDP (Remote Desktop Protocol) attempts on a geo-map. We'll capture the IP addresses of the attackers and plot them on a world map.
 
 ## Prerequisites
 
@@ -43,7 +41,7 @@ Create a Windows VM in Azure and make sure to open the RDP port (3389) to the in
 
 Create a Log Analytics Workspace in Azure to capture the logs from the VM.
 
-![Log Analytics Workspace](https://i.imgur.com/Xt6zGsc.png) 
+![Log Analytics Workspace](https://i.imgur.com/pAOZNhU.png) 
 
 ### Step 3: Install Log Analytics Agent
 
