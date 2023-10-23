@@ -4,6 +4,8 @@
 <h2>Description</h2>
 This lab demonstrates how to set up a honeypot Virtual Machine (VM) in Azure and use Azure Sentinel to visualize failed RDP (Remote Desktop Protocol) attempts on a geo-map. We'll capture the IP addresses of the attackers and plot them on a world map.
 
+![Overview](https://i.imgur.com/vwZMLGh.png)
+
 <br />
 
 
@@ -47,7 +49,7 @@ Create a Log Analytics Workspace in Azure to capture the logs from the VM.
 
 Install the Log Analytics agent on the VM to send the Event Logs to the workspace.
 
-![Image3](path/to/image3.png) <!-- Replace with the actual image path -->
+![Log Analytics](https://i.imgur.com/HAJDlN5.png) <!-- Replace with the actual image path -->
 
 ### Step 4: PowerShell Script for Geo-Lookup
 ```powershell
@@ -210,7 +212,7 @@ while ($true)
 
 After leaving the VM exposed to the internet, we started seeing failed RDP attempts from various countries. Each country is visualized as a bubble on the map, with its size proportional to the number of attempts.
 
-![Final Map](path/to/final-map.png) <!-- Replace with the actual image path -->
+![Final Map](https://i.imgur.com/UagRK8H.png) 
 
 ## Takeaways
 This lab demonstrates that the open Internet is a hostile and dangerous environment.
